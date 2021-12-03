@@ -274,26 +274,58 @@ body{
     background-image: url(education.jpg);
     background-size: cover;
     height: 100%;
-
+    color: black;
 }
 
 .experience{
+    background-image: url(experence.jpg);
+    background-size: cover;
     height: 100%;
+    color: black;
+
 }
 
 .project{
-    height: 100%;
+    background-image: url(project.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: black;
 }
 
-.interest{
-    height: 100%;
+.interests{
+    background-image: url(interest.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: black;
 }
 
 .contact{
-    height: 100%;
-    background-color: #777;
+    background-image: url(contact.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-color: black;
+    color: blanchedalmond;
 }
 
-.H1{
-  
+.college{
+  border-radius: 50px;
+  height: auto;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,20);
+}
+
+.text{
+     margin-top:  20%;
+}
+
+.text2{
+    font-weight: 700;
+    font-size: large;
+}
+
+
+.card-body{
+    height: 100%;
 }
