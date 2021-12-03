@@ -269,3 +269,30 @@ body{
     margin-bottom: 17px;
 }
 
+.education{
+    background-image: url(education.jpg);
+    background-size: cover;
+    height: 100%;
+
+}
+
+.experience{
+    height: 100%;
+}
+
+.project{
+    height: 100%;
+}
+
+.interest{
+    height: 100%;
+}
+
+.contact{
+    height: 100%;
+    background-color: #777;
+}
+
+.H1{
+    margin-top: 500px;
+}
