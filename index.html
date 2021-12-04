@@ -400,7 +400,7 @@
                     <div class="info-box">
                         <i class="bx bx-envelope"></i>
                         <h3>Email Me</h3>
-                        <p>contact@example.com</p>
+                        <p>Emmanuel.ad5648@gmail.com</p>
                     </div>
                 </div>
                 <div class="col-md-6 mt-4 d-fex align-items-strecth">
@@ -411,7 +411,8 @@
                     </div>
                 </div>
             </div>
-            <form id="contact" method="post" role="form" class="form mt-4">
+            <form id="contact" onsubmit="alert('Message was Sent');
+            location.reload();"   class="form mt-4">
                 <div class="row mb-3">
                     <div class="col-xs-6 col-md-6 form-group">
                         <input type="text" name="name" class="form-control" id="name" placeholder="Name">
@@ -430,10 +431,7 @@
     </section>
     <script>
         AOS.init();
-         $("").submit(function(){
-            alert("Message was Sent");
-            location.reload();
-          });
+        
     </script>
 </body>
 
