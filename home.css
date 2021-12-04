@@ -288,7 +288,7 @@ body{
 .project{
     background-image: url(project.jpg);
     background-size: cover;
-    height: 109vh;
+    height: 100%;
     color: black;
 }
 
@@ -326,7 +326,7 @@ body{
 }
 
 .card{
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
 
 }
 
@@ -342,9 +342,3 @@ html{
     scroll-behavior: smooth;
 }
 
-@keyframes slidein {
-    experence{
-        margin: left 100%;
-        width: 300%;
-    }
-}
