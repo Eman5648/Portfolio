@@ -326,7 +326,7 @@ body{
 }
 
 .card{
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
 
 }
 
