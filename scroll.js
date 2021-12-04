@@ -19,8 +19,3 @@ function checkBoxes() {
 }
 
 
-$(document).ready(function () {
-    $("form").submit(function () {
-        alert("Message was Sent");
-    });
-});
