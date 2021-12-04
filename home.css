@@ -274,7 +274,7 @@ body{
     background-image: url(education.jpg);
     background-size: cover;
     height: 100%;
-    color: black;
+    color: rgb(8, 1, 7);
 }
 
 .experience{
@@ -288,21 +288,21 @@ body{
 .project{
     background-image: url(project.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 109vh;
     color: black;
 }
 
 .interests{
     background-image: url(interest.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     color: black;
 }
 
 .contact{
     background-image: url(contact.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     background-color: black;
     color: blanchedalmond;
 }
@@ -325,7 +325,26 @@ body{
     font-size: large;
 }
 
+.card{
+    backdrop-filter: blur(10px);
 
-.card-body{
-    height: 100%;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.college2{
+    margin-top:  40%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@keyframes slidein {
+    experence{
+        margin: left 100%;
+        width: 300%;
+    }
 }
