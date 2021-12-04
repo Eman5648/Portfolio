@@ -5,16 +5,22 @@ window.addEventListener("scroll", checkBoxes);
 checkBoxes();
 
 function checkBoxes() {
-  const triggerBottom = (window.innerHeight / 5) * 4;
+    const triggerBottom = (window.innerHeight / 5) * 4;
 
-  boxes.forEach((box) => {
-    const boxTop = box.getBoundingClientRect().top;
+    boxes.forEach((box) => {
+        const boxTop = box.getBoundingClientRect().top;
 
-    if (boxTop < triggerBottom) {
-      box.classList.add("show");
-    } else {
-      box.classList.remove("show");
-    }
-  });
+        if (boxTop < triggerBottom) {
+            box.classList.add("show");
+        } else {
+            box.classList.remove("show");
+        }
+    });
 }
 
+
+$(document).ready(function () {
+    $("form").submit(function () {
+        alert("Message was Sent");
+    });
+});
