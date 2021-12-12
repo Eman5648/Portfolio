@@ -25,12 +25,22 @@
     <link rel="stylesheet" href="icofont/icofont.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://npmcdn.com/particlesjs@2.0.2/dist/particles.min.js"></script>
+
     <script src="scroll.js"></script>
 
-    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+
+
+
 </head>
 
 <body>
+    <!-- Google Analytics -->
+
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat" rel="stylesheet" type="text/css">
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -62,33 +72,17 @@
     </nav>
     <!------------------------------Home--------------------------------->
     <section id=home class="home" data-aos="zoom-in">
-        <div class="container-fluid w3-animate-bottom ">
-            <div class="row">
-                <div class="card hovercard">
-                    <div class="cardheader">
-
-                    </div>
-                    <div class="avatar">
-                        <img alt="" src="person.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="title">
-                            <a target="_blank" href="">Emmanuel Adeleye</a>
-                        </div>
-                        <div class="desc text2">Software Developer</div>
-                    </div>
-                    <div class="card">
-                        <b>About me</b>
-                        <p class="text-center">
-                            Developed numerous programs in college using Java, Python, Django and SQL, also have
-                            customer-facing experience.
-                            A fast learner with strong time management and multi-tasking skills.
-                            Strong work ethic in team collaboration or working independently in remote environment.
-                            Strong troubleshooting and problem-solving skills with a positive mindset.
-                        </p>
-                    </div>
+        <div class="header vertical-center">
+            <div class="container-fluid">
+                <div class="center">
+                    <strong>
+                        <h1 class="text-center">Emmanuel Adeleye</h1>
+                    </strong>
+                        <h2 class="text-center">And I am a <span class="typing"></span></h2>
                 </div>
             </div>
+            <canvas class="background">
+            </canvas>
         </div>
     </section>
     <!---------------------------Interest--------------------------------->
@@ -329,7 +323,7 @@
     <!---------------------------Workexperience--------------------------------->
     <section id="experience" class="experience " data-aos="fade-up">
         <div class="container-fluid ">
-            <div class="row section-title  text-center  "data-aos="zoom-in-up">
+            <div class="row section-title  text-center  " data-aos="zoom-in-up">
                 <H1 class="mt-5">Work Experience</H1>
             </div>
             <div class="card text2">
@@ -412,7 +406,7 @@
                 </div>
             </div>
             <form id="contact" onsubmit="alert('Message was Sent');
-            location.reload();"   class="form mt-4">
+            location.reload();" class="form mt-4">
                 <div class="row mb-3">
                     <div class="col-xs-6 col-md-6 form-group">
                         <input type="text" name="name" class="form-control" id="name" placeholder="Name">
@@ -431,7 +425,7 @@
     </section>
     <script>
         AOS.init();
-        
+
     </script>
 </body>
 
